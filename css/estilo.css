@@ -4,7 +4,7 @@
 .right {
     width: 150px;
     border: 3px solid;
-    padding: 10px;
+    padding: 5px;
 }
 p.ridge {
     border-style: ridge;
@@ -16,4 +16,8 @@ p.ridge {
     padding: 5px 25px;
     display: inline-block;
     font-size: 15px;
+  }
+  .link {
+    color: blue;
+    text-decoration: underline;
   }

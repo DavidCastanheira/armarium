@@ -2,7 +2,7 @@
 
 ## Objetivos
 
-aqui vai o objetivo!!
+Desenvolver uma plataforma online para alocação de armários.
 
 ## Integrantes
 

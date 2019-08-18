@@ -1,5 +1,7 @@
 
-body {font-family: Arial, Helvetica, sans-serif;}
+body {font-family: Arial, Helvetica, sans-serif;
+  
+}
 form {border: 3px solid #f1f1f1;}
 
 input[type=text], input[type=password] {
@@ -16,7 +18,7 @@ input[type=text], input[type=password] {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #333A40;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -38,15 +40,13 @@ button:hover {
 .imgcontainer {
   text-align: center;
   margin: 24px 0 12px 0;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
+ 
 }
 
 .container {
   padding: 16px;
+  color: #f1f1f1;
+  background-color: rgb(57, 87, 114);
 }
 
 span.psw {

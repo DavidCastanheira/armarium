@@ -1,0 +1,46 @@
+body{
+    background: url(https://www.collegebox.com.br/site/visuais/imagens/aluno_grande_3.201902162014.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+
+header{
+    font-style: oblique;
+    font-family:fantasy;
+    font-size: 36px;
+    background: rgba(0,0,0,0.6);
+    text-align: end;
+}
+a:hover{
+    color:rgb(238, 197, 16);
+}
+
+#form-login{
+    display:flex;
+    padding: 1em;
+    border: 1px solid black ;
+    border-radius: 1em;
+    background: rgba(0,0,0,0.6);
+    width: 300px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 12%;
+    color: rgb(238, 197, 16);
+}
+
+input[type="text"],input[type="password"]{
+    border-radius: 20px;
+    text-align: center;
+}
+
+input[type= "button"]{
+    width: 100px;
+    border-radius: 50px;
+}
+
+input[type= "button"]:hover{
+    background-color: rgb(238, 197, 16);
+}
+

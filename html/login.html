@@ -1,38 +1,30 @@
 <!DOCTYPE html>
-
-<html>
-   
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel ="stylesheet" href ="css/login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/entrar.css">
+    <title>Login</title>
 </head>
-
-
 <body>
-<h1 class = "center" >Login Armarium</h1>
+    <header>
+        <nav>
+            <a href="/html/home.html">Pagina Inicial</a>
+            <a href="/html/cadastro.html">Cadastre-se agora!</a>
+        </nav>
+    </header>
 
-<form action="/action_page.php">
-  <div class="imgcontainer">
-  </div>
-
-  <div class="container">
-    <label for="uname"><b>Nome / e-mail do usuário</b></label>
-    <input type="text" placeholder="Usuario" name="uname" required>
-
-    <label for="psw"><b>Senha</b></label>
-    <input type="password" placeholder="Senha" name="psw" required>
-       
-    <button type="submit">Login</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Lembrar de mim
-    </label>
-  </div>
-
-  <div class="container " style="background-color:#333A40">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw"> <a href="#">Recuperar senha?</a></span>
-  </div>
-</form>
+            <div id="form-login">
+                    <h1>Login</h1>
+                    <form>
+                      <input type="text" name="e-mail" value="" placeholder="E-mail">
+                      <br><br>
+                      <input type="password" name="senha" value="" placeholder="Senha">
+                      <br><br>
+                      <input type="button" value="Entrar">
+                    </form>  
+             </div> 
 
 </body>
 </html>
